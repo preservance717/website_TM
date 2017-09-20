@@ -34,11 +34,11 @@ p,
 li,
 li a,
 label { 
-   color: #555;
+   /*color: #555;*/
 }
 
 a {
-   color: #72c02c;
+   /*color: #72c02c;*/
    text-decoration: none;  
 }
 

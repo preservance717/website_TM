@@ -18,10 +18,10 @@
 
 /*Top Bar (login, search etc.)
 ------------------------------------*/
-.smart{
+.smart {
     position: absolute;
     top: 15px;
-    left: 1247px
+    left: 1217px;
 }
 .smart > p {
     float: left;
@@ -151,7 +151,7 @@
 /*Header Container*/
 .header > .container {
     display: table;
-    margin-bottom: -40px;
+    margin-bottom: -36px;
 }
 
 @media (max-width: 768px) {
@@ -173,6 +173,7 @@
     display: table-cell;
     vertical-align: middle;
     float: left;
+    margin-top: 10px;
 }
 
 /*.header .logo img {*/
@@ -247,7 +248,7 @@
 }
 
 .header .navbar-collapse .container {
-    margin: -5px 0;
+    margin: -5px 27px;
 }
 
 @media (min-width: 992px) {
