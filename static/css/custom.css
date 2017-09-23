@@ -17,7 +17,7 @@ company-profile-virtual {
 
 .company-profile-actual .company-profile-title {
     text-align: center;
-    padding: 112px 0 100px 0;
+    padding: 82px 0 100px 0;
 }
 
 .company-profile-content .company-detail a {
@@ -258,7 +258,7 @@ a:hover {
 
 .pt-icon{
     position: absolute;
-    top: 1890px;
+    top: 1742px;
 }
 .guanli-icon{
     width: 100px;
@@ -303,4 +303,8 @@ a:hover {
     color: #656565;
     text-align: center;
     padding-bottom: 60px;
+}
+
+.li-circle{
+    border-radius: 10px !important;
 }
