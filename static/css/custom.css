@@ -173,7 +173,7 @@ a:hover {
 
 .wennuan-actual .wennuan-title {
     text-align: center;
-    padding: 80px 0 56px 0;
+    padding: 0px 0 56px 0;
 }
 
 .wennuan-content {
@@ -232,6 +232,8 @@ a:hover {
 }
 .platform{
     background: url("../img/sh/tj-platform.png") no-repeat;
+    position: relative;
+    top: -275px;
 }
 
 .circle{
@@ -257,8 +259,7 @@ a:hover {
 }
 
 .pt-icon{
-    position: absolute;
-    top: 1742px;
+    position: relative;
 }
 .guanli-icon{
     width: 100px;
