@@ -179,7 +179,8 @@ a:hover {
 .wennuan-content {
     /*background: url("../img/sh/warm-tech.png");*/
 }
-.warm-content-desc{
+
+.warm-content-desc {
     width: 516px;
     /*margin: 0px;*/
     /*top: 2600px;*/
@@ -223,29 +224,33 @@ a:hover {
     margin: 0 auto;
 }
 
-.col-md-6{
+.col-md-6 {
     padding-left: 3px;
     padding-right: 3px;
 }
-.flower{
+
+.flower {
     padding-bottom: 6px;
 }
-.platform{
+
+.platform {
     background: url("../img/sh/tj-platform.png") no-repeat;
     position: relative;
     top: -275px;
 }
 
-.circle{
+.circle {
     width: 6px;
     height: 6px;
     border-radius: 3px !important;
     background: #337ab7;
 }
+
 .warm-desc-title {
     font-size: 32px;
     color: #02a5c8;
 }
+
 .warm-desc {
     font-size: 16px;
     position: relative;
@@ -254,30 +259,34 @@ a:hover {
     text-align: left;
 }
 
-.warm-desc-content{
+.warm-desc-content {
     margin-top: 42px;
 }
 
-.pt-icon{
+.pt-icon {
     position: relative;
 }
-.guanli-icon{
+
+.guanli-icon {
     width: 100px;
     height: 100px;
 }
-.jh-icon{
+
+.jh-icon {
     width: 80px;
     height: 80px;
     position: relative;
     top: 28px;
     left: -10px;
 }
-.kf-icon{
+
+.kf-icon {
     position: relative;
     left: 16px;
     top: 16px;
 }
-.mz-icon{
+
+.mz-icon {
     position: relative;
     left: 16px;
     /*top: 16px;*/
@@ -294,6 +303,7 @@ a:hover {
     width: 1200px;
     margin: 0 auto;
 }
+
 .value-actual .value-title {
     text-align: center;
     padding: 60px 0 46px 0;
@@ -306,6 +316,65 @@ a:hover {
     padding-bottom: 60px;
 }
 
-.li-circle{
+.li-circle {
     border-radius: 10px !important;
 }
+
+@media (min-device-height: 800px) and (max-device-height: 900px) {
+    .slider-img {
+        height: 790px !important;
+    }
+
+    .slider-img-desc {
+        bottom: 180px;
+    }
+
+    .slider-detail {
+        margin-top: 170px;
+    }
+
+    .img-slider-desc-2 {
+        color: #fff;
+        font-weight: 200;
+        font-size: 80px;
+    }
+}
+
+@media (min-device-height: 730px) and (max-device-height: 768px) {
+    .slider-img {
+        height: 643px !important;
+    }
+
+    .slider-img-desc {
+        bottom: 130px;
+    }
+
+    .slider-detail {
+        margin-top: 90px;
+    }
+
+    .img-slider-desc-2 {
+        color: #fff;
+        font-weight: 200;
+        font-size: 78px;
+    }
+}
+
+@media screen and (max-device-height: 720px) {
+    .slider-img {
+        height: 589px !important;
+    }
+    .slider-img-desc {
+        bottom: 100px;
+    }
+
+    .slider-detail {
+        margin-top: 80px;
+    }
+    .img-slider-desc-2 {
+        color: #fff;
+        font-weight: 200;
+        font-size: 74px;
+    }
+}
+
