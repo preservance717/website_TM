@@ -143,146 +143,96 @@
     <!-- child template -->
 
     <!--=== Slider ===-->
-    <div id="myCarousel" class="carousel slide">
-        <!-- 轮播（Carousel）指标 -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active li-circle"></li>
-            <li data-target="#myCarousel" data-slide-to="1" class="li-circle"></li>
-            <li data-target="#myCarousel" data-slide-to="2" class="li-circle"></li>
-        </ol>
+    <div class="slider-virtual">
+        <div class="slider-actual">
+            <div id="myCarousel" class="carousel slide">
+                <!-- 轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active li-circle"></li>
+                    <li data-target="#myCarousel" data-slide-to="1" class="li-circle"></li>
+                    <li data-target="#myCarousel" data-slide-to="2" class="li-circle"></li>
+                </ol>
 
-        <!-- 轮播（Carousel）项目 -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="static/img/sh/layerslider/s3.jpg" alt="Third slide" class="slider-img">
-                <div class="carousel-caption" style="bottom:60px;left: -580px;">
-                    <div style="margin-top:80px">
-                        <a class="ls-s1" href="#"
-                           style="color: #ffffff;border-radius: 5px !important; padding: 9px 20px; font-size:20px;border:1px solid #03a3c7">
-                            了解详情
-                        </a>
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="static/img/sh/layerslider/3.jpg" alt="Third slide" class="slider-img">
+                        <div class="carousel-caption slider-img-desc" style="left: 9%; text-align: left">
+                            <div>
+                                <span style="color: #fff; font-weight: 200; font-size: 80px;">天明创新</span>
+                                <img src="static/img/sh/banner.png" alt="">
+                            </div>
+                            <div style="margin: 25px 0;">
+                                <span>
+                                    <span style="font-size: 20px;"><i class="fa fa-circle " aria-hidden="true"></i></span>
+                                    &nbsp;&nbsp;
+                                    <span style="font-size: 32px;">擅长 <span style="color:#03a3c7;">智能</span> 服务</span>
+                                </span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span>
+                                    <span style="font-size: 20px;"><i class="fa fa-circle " aria-hidden="true"></i></span>
+                                    &nbsp;&nbsp;
+                                    <span style="font-size: 32px">体检 <span style="color:#03a3c7;">筛查</span></span>
+                                </span>
+                                <br>
+                                <span>
+                                    <span style="font-size: 20px;"><i class="fa fa-circle " aria-hidden="true"></i></span>
+                                    &nbsp;&nbsp;
+                                    <span style="font-size: 32px">职业病卫生医疗机构的长期助手</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span style="font-size: 24px;">关注职业健康，关注职业尘肺病，选择天明创新让您和您的家人健康
+                                    <br>有所保障！</span>
+                            </div>
+                            <div style="margin: 50px 0 0 0;">
+                                <a class="ls-s1" href="#"
+                                   style="color: #ffffff;border-radius: 5px !important; padding: 9px 20px; font-size:20px;border:1px solid #03a3c7">
+                                    了解详情
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item ">
+                        <img src="static/img/sh/layerslider/slider2.png" alt="First slide" class="slider-img">
+                        <div class="carousel-caption slider-img-desc">
+                            <div style="color: #fff;font-family: Arial; font-weight: 200; font-size: 60px;">OIM360</div>
+                            <div class="img-slider-desc-2">职业病 <span
+                                    style="color:#03a3c7;">智能</span>化管理
+                            </div>
+                            <div style="color: #fff; font-weight: 200; font-size: 28px;">最大化减少医生负担的智能系统</div>
+                            <div class="slider-detail">
+                                <a class="ls-s1" href="#"
+                                   style="color: #ffffff;border-radius: 5px !important; padding: 9px 20px; font-size:20px;border:1px solid #03a3c7">
+                                    了解详情
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="static/img/sh/layerslider/slider3.jpg" alt="Second slide" class="slider-img">
+                        <div class="carousel-caption slider-img-desc">
+                            <div style="color: #fff;font-family: Arial; font-weight: 200; font-size: 60px;">MAXDiag</div>
+                            <div class="img-slider-desc-2">职业健康自己的 <span
+                                    style="color:#03a3c7;">智能</span>算法
+                            </div>
+                            <div style="color: #fff; font-weight: 200; font-size: 28px;">让您拥有低成本快捷如飞的体检速度和精确客观的诊断质量</div>
+                            <div class="slider-detail">
+                                <a class="ls-s1" href="#"
+                                   style="color: #ffffff;border-radius: 5px !important; padding: 9px 20px; font-size:20px;border:1px solid #03a3c7">
+                                    了解详情
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
+                <!-- 轮播（Carousel）导航 -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
             </div>
-            <div class="item ">
-                <img src="static/img/sh/layerslider/slider2.png" alt="First slide" class="slider-img">
-                <div class="carousel-caption slider-img-desc">
-                    <div style="color: #fff;font-family: Arial; font-weight: 200; font-size: 60px;">OIM360</div>
-                    <div class="img-slider-desc-2">职业病 <span
-                            style="color:#03a3c7;">智能</span>化管理
-                    </div>
-                    <div style="color: #fff; font-weight: 200; font-size: 28px;">最大化减少医生负担的智能系统</div>
-                    <div class="slider-detail">
-                        <a class="ls-s1" href="#"
-                           style="color: #ffffff;border-radius: 5px !important; padding: 9px 20px; font-size:20px;border:1px solid #03a3c7">
-                            了解详情
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="static/img/sh/layerslider/slider3.jpg" alt="Second slide" class="slider-img">
-                <div class="carousel-caption slider-img-desc">
-                    <div style="color: #fff;font-family: Arial; font-weight: 200; font-size: 60px;">MAXDiag</div>
-                    <div class="img-slider-desc-2">职业健康自己的 <span
-                            style="color:#03a3c7;">智能</span>算法
-                    </div>
-                    <div style="color: #fff; font-weight: 200; font-size: 28px;">让您拥有低成本快捷如飞的体检速度和精确客观的诊断质量</div>
-                    <div class="slider-detail">
-                        <a class="ls-s1" href="#"
-                           style="color: #ffffff;border-radius: 5px !important; padding: 9px 20px; font-size:20px;border:1px solid #03a3c7">
-                            了解详情
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-            <!--<div class="item">-->
-                <!--<img src="static/img/sh/layerslider/slider.jpg" alt="Third slide">-->
-                <!--&lt;!&ndash;<div class="carousel-caption">&ndash;&gt;-->
-                <!--&lt;!&ndash;<div>222</div>&ndash;&gt;-->
-                <!--&lt;!&ndash;<div>333</div>&ndash;&gt;-->
-                <!--&lt;!&ndash;<div>444</div>&ndash;&gt;-->
-                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-            <!--</div>-->
         </div>
-        <!-- 轮播（Carousel）导航 -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
     </div>
-    <!--<div id="layerslider" class="carousel-inner" style="width: 100%; height: 654px; margin: 0px auto;">-->
-
-
-    <!--Second Slide-->
-    <!--<div class="ls-slide" data-ls="transition2d:93;">-->
-    <!--<img src="static/img/sh/layerslider/slider2.png" class="ls-bg" alt="Slide background">-->
-
-    <!--<span class="ls-s-2"-->
-    <!--style=" color: #fff;font-family: Arial; font-weight: 200; font-size: 60px; top:148px; left: 395px; slidedirection : top; slideoutdirection : bottom; durationin : 1500; durationout : 500; ">-->
-    <!--OIM360-->
-    <!--</span>-->
-
-
-    <!--<span class="ls-s-2"-->
-    <!--style=" color: #fff; font-weight: 200; font-size: 80px; top:240px; left: 179px; slidedirection : top; slideoutdirection : bottom; durationin : 2500; durationout : 1500; ">-->
-    <!--职业病<span style="color:#03a3c7;">智能</span>化管理-->
-    <!--</span>-->
-
-    <!--<span class="ls-s-2"-->
-    <!--style=" color: #fff; font-weight: 200; font-size: 28px; top:370px; left: 311px; slidedirection : top; slideoutdirection : bottom; durationin : 3500; durationout : 2500; ">-->
-    <!--最大化减少医生负担的智能系统-->
-    <!--</span>-->
-
-    <!--<a class="ls-s1" href="#"-->
-    <!--style="color: #ffffff;border-radius: 5px !important; padding: 9px 20px; font-size:20px; top:480px; left: 451px; slidedirection : bottom; slideoutdirection : bottom; durationin : 6500; durationout : 3500;-->
-    <!--border:1px solid #03a3c7">-->
-    <!--了解详情-->
-    <!--</a>-->
-
-    <!--</div>-->
-    <!--&lt;!&ndash;Third Slide&ndash;&gt;-->
-    <!--<div class="ls-slide" style="slidedirection: right; transition2d: 92,93,105; ">-->
-    <!--<img src="static/img/sh/layerslider/slider3.jpg" class="ls-bg" alt="Slide background">-->
-
-    <!--<span class="ls-s-2"-->
-    <!--style=" color: #fff;font-family: Arial; font-weight: 200; font-size: 60px; top:148px; left: 395px; slidedirection : top; slideoutdirection : bottom; durationin : 1500; durationout : 500; ">-->
-    <!--MAXDiag-->
-    <!--</span>-->
-
-
-    <!--<span class="ls-s-2"-->
-    <!--style=" color: #fff; font-weight: 200; font-size: 80px; top:240px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 2500; durationout : 1500; ">-->
-    <!--职业健康自己的<span style="color:#03a3c7;">智能</span>算法-->
-    <!--</span>-->
-
-    <!--<span class="ls-s-2"-->
-    <!--style=" color: #fff; font-weight: 200; font-size: 28px; top:370px; left: 164px; slidedirection : top; slideoutdirection : bottom; durationin : 3500; durationout : 2500; ">-->
-    <!--让您拥有低成本快捷如飞的体检速度和精确客观的诊断质量-->
-    <!--</span>-->
-
-    <!--<a class="ls-s1" href="#"-->
-    <!--style="color: #ffffff;border-radius: 5px !important; padding: 9px 20px; font-size:20px; top:480px; left: 451px; slidedirection : bottom; slideoutdirection : bottom; durationin : 6500; durationout : 3500;-->
-    <!--border:1px solid #fff">-->
-    <!--了解详情-->
-    <!--</a>-->
-    <!--</div>-->
-    <!--<div class="ls-slide" data-ls="slidedelay:4500;transition2d:25;">-->
-    <!--<img src="static/img/sh/layerslider/slider.jpg" class="ls-bg" alt="Slide background">-->
-
-    <!--&lt;!&ndash;<span class="ls-s-1"&ndash;&gt;-->
-    <!--&lt;!&ndash;style=" text-transform: uppercase; line-height: 45px; font-size:35px; color:#fff; top:160px; left: 590px; slidedirection : top; slideoutdirection : bottom; durationin : 3500; durationout : 3500; delayin : 1000;">&ndash;&gt;-->
-    <!--&lt;!&ndash;打造互联网医疗新生态<br>健康管理专家&ndash;&gt;-->
-    <!--&lt;!&ndash;</span>&ndash;&gt;-->
-
-    <!--&lt;!&ndash;<a class="btn-u btn-u-orange ls-s-1" href="#download"&ndash;&gt;-->
-    <!--&lt;!&ndash;style=" padding: 9px 20px; font-size:25px; top:360px; left: 590px; slidedirection : bottom; slideoutdirection : top; durationin : 3500; durationout : 2500; delayin : 1000; ">&ndash;&gt;-->
-    <!--&lt;!&ndash;智慧医疗平台&ndash;&gt;-->
-    <!--&lt;!&ndash;</a>&ndash;&gt;-->
-    <!--</div>-->
-    <!--</div>&lt;!&ndash;/layer_slider&ndash;&gt;-->
-    <!--=== End Slider ===-->
 </div>
 <section id="company-profile">
     <div class="company-profile-virtual">
@@ -569,8 +519,14 @@
             } else if ($(this).attr('href') == '/' && url != '/') {
                 $(this).parent().removeClass('active');
             }
-        })
+        });
 
+        var imgHeight = window.screen.height - 66-45;
+//        var imgHeight = window.screen.availHeight -66 -45;
+        $(".slider-img").height(imgHeight);
+        $(".img-slider-desc-2").css({"font-size":"74px"});
+        $(".slider-img-desc").css({top: (imgHeight) / 6 + "px"});
+        $(".slider-detail").css({margin:"120px 0 0  0"})
 
     });
 
