@@ -19,8 +19,8 @@
 /*Top Bar (login, search etc.)
 ------------------------------------*/
 .header-nav{
-    float: right;
-    margin-right: 180px;
+    /*float: right;*/
+    margin-left: 24%;
     font-size: 14px;
 }
 .nav-ul{
@@ -30,7 +30,7 @@
 }
 .nav-ul li{
     float: left;
-    margin-left: 30px;
+    margin-left: 50px;
     list-style: none;
 }
 .nav-ul .a-hover:hover{
@@ -42,8 +42,18 @@
     border: 1px solid #efefef;
     border-radius: 4px !important;
 }
-.tj{
+/*.tj{*/
+    /*margin-left: 11%;*/
+/*}*/
+.nav-sh{
+    position: absolute;
+    top: 21px;
+    right: 8%;
+}
+.nav-sh > ul > li{
+    float: left;
     margin-left: 50px;
+    list-style: none;
 }
 
 .smart {
@@ -73,10 +83,13 @@
 }
 
 .header-actual{
-    width: 1200px;
+    /*width: 1200px;*/
     margin: 0 auto;
 }
 
+.nav-sm{
+    float:right;
+}
 @media (max-width: 991px) {
     .header .topbar {
         margin-bottom: 20px;
