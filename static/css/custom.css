@@ -325,7 +325,6 @@ a:hover {
 .value-content {
     font-size: 16px;
     color: #656565;
-    text-align: center;
     padding-bottom: 60px;
 }
 
@@ -341,6 +340,24 @@ a:hover {
     /*width: 1200px;*/
 }
 
+.news{
+    width: 373px;
+}
+.news-overview{
+    padding: 0px 20px;
+}
+.review-news-detail{
+    text-align: right;
+}
+.news-industry{
+    margin: 0 53px;
+}
+.news-title{
+    font-size: 19px;
+    color:#353535;
+    font-weight:900;
+    margin: 15px 0;
+}
 /*@media (min-device-height: 910px) {*/
 /*.slider-img {*/
 /*height: 932px !important;*/
