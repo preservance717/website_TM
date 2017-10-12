@@ -339,11 +339,19 @@ a:hover {
 .slider-actual {
     /*width: 1200px;*/
 }
+.left{
+     left: 1%;
+}
+.right{
+    right: 1% !important;
+}
 .carousel-control {
     position: absolute;
-    top: 50%;
-    left: 0;
-    width: 15%;
+    top: 45%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50% !important;
+    background: #fff;
     font-size: 51px;
     color: #fff;
     text-align: center;
