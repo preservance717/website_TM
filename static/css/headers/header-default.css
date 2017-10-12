@@ -19,18 +19,17 @@
 /*Top Bar (login, search etc.)
 ------------------------------------*/
 .header-nav{
-    /*float: right;*/
-    margin-left: 24%;
     font-size: 14px;
 }
 .nav-ul{
-    height: 66px;
-    line-height:66px;
+    height: 45px;
+    line-height:45px;
     margin-bottom:0px !important;
+    margin-left: 122px;
 }
 .nav-ul li{
     float: left;
-    margin-left: 50px;
+    margin-left: 76px;
     list-style: none;
 }
 .nav-ul .a-hover:hover{
@@ -47,8 +46,8 @@
 /*}*/
 .nav-sh{
     position: absolute;
-    top: 21px;
-    right: 8%;
+    top: 14px;
+    right: 16%;
 }
 .nav-sh > ul > li{
     float: left;
@@ -83,7 +82,7 @@
 }
 
 .header-actual{
-    /*width: 1200px;*/
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -194,7 +193,7 @@
     background: #03a3c7;
     position: relative;
     border-bottom: solid 2px #eee;
-    height: 66px;
+    height: 45px;
     color: #ffffff;
 }
 
