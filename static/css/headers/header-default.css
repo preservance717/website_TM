@@ -36,17 +36,17 @@
     padding: 10px 0px;
     border-bottom:2px solid #ffffff;
 }
-.sm{
-    padding: 10px 10px;
-    border: 1px solid #efefef;
-    border-radius: 4px !important;
-}
+/*.sm{*/
+    /*padding: 10px 10px;*/
+    /*border: 1px solid #efefef;*/
+    /*border-radius: 4px !important;*/
+/*}*/
 /*.tj{*/
     /*margin-left: 11%;*/
 /*}*/
 .nav-sh{
     position: absolute;
-    top: 14px;
+    top: 9px;
     right: 16%;
 }
 .nav-sh > ul > li{
